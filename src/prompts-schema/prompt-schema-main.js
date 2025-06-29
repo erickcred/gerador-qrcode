@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 
-const mainPrompt = [
+const promptSchemaMain = [
   {
     name: 'select',
     description: chalk.cyan.bold('Escolha a ferramenta (1 - QRCode, 2 - Password)'),
@@ -10,4 +10,4 @@ const mainPrompt = [
   },
 ]
 
-export default mainPrompt;
+export default promptSchemaMain;
