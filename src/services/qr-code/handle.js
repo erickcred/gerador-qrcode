@@ -3,8 +3,7 @@ import qrCodeTerminal from 'qrcode-terminal';
 
 async function handle(err, result) {
   if (err) {
-    console.clear();
-    console.log(chalk.red.bold('Error on aplication', err));
+    console.log(chalk.red.bold('Erro ao gerar QRCode', err));
     return;
   }
 
